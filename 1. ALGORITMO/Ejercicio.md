@@ -30,4 +30,11 @@
 
 ###  Realice un algoritmo que resuelva la siguiente situación: un producto tenía un precio inicial que debe solicitarse y ahora tiene un nuevo valor, mayor, que también deberá pedirse, determine el porcentaje de incremento del producto. 
 
-    TU RESPUESTA AQUI
+    1 Inicio
+    2 Declaracion precio_inicial como flotante, nuevo_precio como flotante, incremento como flotante
+    3 Mostrar "Ingrese el precio inicial del producto"
+    4 Asignar a precio_inicial
+    5 Mostrar "Ingrese el nuevo valor"
+    6 Asignar a nuevo_precio
+    7 incremento = (nuevo_precio - precio_inicial)/precio_inicial
+    8 Mostrar "El incremento es ", incremento
